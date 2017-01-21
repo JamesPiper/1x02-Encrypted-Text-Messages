@@ -1,4 +1,5 @@
-﻿# Encrypted Text Messages
+
+# Encrypted Text Messages
 
 OVERVIEW
 
@@ -27,11 +28,3 @@ LIMITATIONS
 · Synchronizing keys between sender and receiver.
 · Text message limited to 26 letters of Latin alphabet.
 · Time consuming to generate key, sync keys and to encrypt and decrypt.
-
-
-
-
-
-
- 
-
