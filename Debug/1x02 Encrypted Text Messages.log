@@ -1,0 +1,11 @@
+﻿Build started 2017.01.21 23:37:53.
+     1>Project "C:\Users\James\Documents\Visual Studio 2012\1x02 C Projects\1x02 Encrypted Text Messages\1x02 Encrypted Text Messages.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\James\Documents\Visual Studio 2012\1x02 C Projects\1x02 Encrypted Text Messages\Debug\1x02 Encrypted Text Messages.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\James\Documents\Visual Studio 2012\1x02 C Projects\1x02 Encrypted Text Messages\Debug\1x02 Encrypted Text Messages.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\James\Documents\Visual Studio 2012\1x02 C Projects\1x02 Encrypted Text Messages\Debug\1x02 Encrypted Text Messages.lib" /MACHINE:X86 "Debug\1x02 Encrypted Text Messages.obj"
+         Debug\stdafx.obj
+         1x02 Encrypted Text Messages.vcxproj -> C:\Users\James\Documents\Visual Studio 2012\1x02 C Projects\1x02 Encrypted Text Messages\Debug\1x02 Encrypted Text Messages.exe
+     1>Done Building Project "C:\Users\James\Documents\Visual Studio 2012\1x02 C Projects\1x02 Encrypted Text Messages\1x02 Encrypted Text Messages.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.60

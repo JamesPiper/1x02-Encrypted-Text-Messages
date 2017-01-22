@@ -1,0 +1,20 @@
+
+Encrypt Message
+
+Plaintext + Key = Ciphertext
+Ciphertext - Key = Plaintext
+
+This program encrypts a 140 character message using the one-time pad system. The algorithm is: plaintext plus a key creates a ciphertext.
+
+Your message is converted to plaintext. Plaintext is lowercase-alpha characters. Punctuation, spaces and numbers are removed.
+
+The key is derived from the value of playing cards. Randomly select cards from a deck and enter the values. The card values are first validated then saved to a file and used to create a key on a first-in, first-out basis.
+
+The number of cards entered must be as long as your message. One card for each character of your message. This is the basis of the one-time pad system.
+
+If there is a sufficient number of cards, the program will generate a key, and from these data, create the ciphertext.
+
+To finalize the process, save the message details. The cards used to create the key are removed from the list of available cards and a log file with information about the message is saved on your hard drive.
+
+Given a key and ciphertext, you can determine the plaintext.
+
