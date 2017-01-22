@@ -39,3 +39,31 @@
 	"stdafx.h"
 	<cstdio>
 
+1485127703 source:c:\users\james\documents\visual studio 2012\1x02 c projects\1x02 encrypted text messages\1x02 encrypted text messages (lib).c
+	"1x02 Encrypted Text Messages.h"
+
+1485127860 source:c:\users\james\documents\visual studio 2012\1x02 c projects\1x02 encrypted text messages\1x02 encrypted text messages (main).c
+	"1x02 Encrypted Text Messages.h"
+
+1485127476 source:c:\users\james\documents\visual studio 2012\1x02 c projects\1x02 encrypted text messages\_0x00_mainmenu.c
+	"1x02 Encrypted Text Messages.h"
+
+1485128212 c:\users\james\documents\visual studio 2012\1x02 c projects\1x02 encrypted text messages\1x02 encrypted text messages.h
+	<stdlib.h>
+	<stdio.h>
+	<ctype.h>
+	<string.h>
+	<math.h>
+
+1485128171 source:c:\users\james\documents\visual studio 2012\1x02 c projects\1x02 encrypted text messages\_1x00_encrypt message.c
+	"1x02 Encrypted Text Messages.h"
+
+1485128140 source:c:\users\james\documents\visual studio 2012\1x02 c projects\1x02 encrypted text messages\_1x01_decrypt message.c
+	"1x02 Encrypted Text Messages.h"
+
+1485128105 source:c:\users\james\documents\visual studio 2012\1x02 c projects\1x02 encrypted text messages\_1x02_enter key.c
+	"1x02 Encrypted Text Messages.h"
+
+1485128210 source:c:\users\james\documents\visual studio 2012\1x02 c projects\1x02 encrypted text messages\_1x03_generate key.c
+	"1x02 Encrypted Text Messages.h"
+
