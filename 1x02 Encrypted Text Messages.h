@@ -32,6 +32,7 @@
 /////////////////////////////////////////////////////////////////////////////////////
 // Macros
 /////////////////////////////////////////////////////////////////////////////////////
+#define MAX_LENGTH_OF_MESSAGE 140
 #define MAX_INPUT_CHARS 255
 #define CHOICE_LENGTH 2
 
@@ -44,10 +45,12 @@ typedef enum Boolean { False, True } Boolean;
 // Function prototypes.
 /////////////////////////////////////////////////////////////////////////////////////
 void _0x00_MainMenu();
-void _1x00_Encrypt_Message();
-void _1x01_Decrypt_Message();
-void _1x02_Enter_Key();
-void _1x03_Generate_Key();
+void _1x01_Enter_Plaintext();
+void _1x02_Enter_Cyphertext();
+void _1x03_Enter_Key();
+void _1x04_Encrypt_Message();
+void _1x05_Decrypt_Message();
+void _1x06_Generate_Key();
 
 // Library functions.
 Boolean FileExists(const char* filename);

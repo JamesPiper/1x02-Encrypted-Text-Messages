@@ -1,0 +1,58 @@
+/////////////////////////////////////////////////////////////////////////////////////
+// Project     : 1x02 Encrypted Text Messages
+// Author      : James Piper, james@jamespiper.com
+// Date        : 2017.01.22
+// File        : _1x06_Generate_Key.c
+// Description : Generate keyset.
+// IDE         : Code::Blocks 16.01
+// Compiler    : GCC
+// Language    : C (Compiling to ISO 11)
+/////////////////////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////////////////////////////
+// Macros
+/////////////////////////////////////////////////////////////////////////////////////
+//#define DEBUG
+
+/////////////////////////////////////////////////////////////////////////////////////
+// Include files
+/////////////////////////////////////////////////////////////////////////////////////
+#include "1x02 Encrypted Text Messages.h"
+/////////////////////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////////////////////////////
+// Function prototypes.
+/////////////////////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////////////////////////////
+// Main function
+/////////////////////////////////////////////////////////////////////////////////////
+void _1x06_Generate_Key() {
+
+    /////////////////////////////////////////////////////////////////////////////////////
+    // PROCEESS
+    // 1. Create or ammend a file containing a key set.
+    // 2. The key is generated using cards from a deck of playing cards.
+    // 3. A user picks a card at random and enters the data here.
+    // 4. The card value is converted into one of A to Z alpha characters.
+    //    Examples: Red Ace   to A, Red 2   to B...Red King   to M
+    //              Black Ace to N, Black 2 to O...Black King to Z
+    // 5. The file could contain the key data or the card data or both.
+    // 6. As the key is used to encypher text it is deleted from the key set.
+    //
+    // 7. Test randomness of key.
+    //    May be more appropriate in generating the key set.
+    //    Difficult to determine (a) the key is short (b) what is random.
+    //    Advanced algorithm required re: letter frequency, sequencing.
+    //    This could or should be part of entering key or in creating set of keys.
+    /////////////////////////////////////////////////////////////////////////////////////
+
+	printf("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n");
+	printf("Generate Keyset\n");
+	printf("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n");
+	printf("\n");
+	printf("\n");
+	printf("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n");
+    system("pause");
+
+}

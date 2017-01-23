@@ -7,7 +7,7 @@
 //             : Starting point for the user.
 // IDE         : Code::Blocks 16.01
 // Compiler    : GCC
-// Language    : C (Compiling to ISO 11.)
+// Language    : C (Compiling to ISO 11)
 /////////////////////////////////////////////////////////////////////////////////////
 
 /////////////////////////////////////////////////////////////////////////////////////
@@ -27,6 +27,8 @@
 void _0x00_MainMenu() {
 
 	char Choice;
+    char* Message;
+    Message = (char*) malloc(sizeof(MAX_LENGTH_OF_MESSAGE + 1));
 
 	do
 	{
@@ -37,10 +39,15 @@ void _0x00_MainMenu() {
 		printf("*                                                                            *\n");
 		printf("*   Type Character + Enter                                                   *\n");
 		printf("*                                                                            *\n");
-		printf("*   A - Encrypt Message                                                      *\n");
-		printf("*   B - Decrypt Message                                                      *\n");
-		printf("*   C - Enter Key                                                            *\n");
-		printf("*   D - Generate Key                                                         *\n");
+		printf("*   P - Enter Plaintext                                                      *\n");
+		printf("*   C - Enter Cyphertext                                                     *\n");
+		printf("*   K - Enter Key                                                            *\n");
+		printf("*                                                                            *\n");
+		printf("*   E - Encrypt Message                                                      *\n");
+		printf("*   D - Decrypt Message                                                      *\n");
+		printf("*                                                                            *\n");
+		printf("*   G - Generate Set of Keys                                                 *\n");
+		printf("*   V - View Security Protocol                                               *\n");
 		printf("*                                                                            *\n");
 		printf("*   X - Exit the program.                                                    *\n");
 		printf("*                                                                            *\n");
@@ -69,25 +76,38 @@ void _0x00_MainMenu() {
         }
         #endif // DEBUG
 
-		if (Choice == 'a') {
-            if (UnitTest == 'n')
-                Choice = 'a';
-            else
-                Choice = 'a';
-		} else if (Choice == 'b') {
-            if (UnitTest == 'n')
-                Choice = 'b';
-            else
-                Choice = 'b';
-		} else if (Choice == 'c')
+        if (UnitTest == 'n') {
+            if (Choice == 'p')
+                _1x01_Enter_Plaintext();
+            else if (Choice == 'c')
+                _1x02_Enter_Cyphertext();
+            else if (Choice == 'k')
+                _1x03_Enter_Key();
+            else if (Choice == 'e')
+                _1x04_Encrypt_Message();
+            else if (Choice == 'd')
+                _1x05_Decrypt_Message();
+            else if (Choice == 'g')
+                _1x06_Generate_Key();
+            else if (Choice == 'v')
+                Choice = 'v';
+            else if (Choice != 'x')
+                printf("*** Select a choice from those listed. ****\n\n");
+        } else {
+            if (Choice == 'p')
+                Choice = 'p';
+            else if (Choice == 'c')
                 Choice = 'c';
-		else if (Choice == 'd')
-            Choice = 'd';
-		//else if (Choice == 'e')
-        //    Choice = 'e';
-        else if (Choice != 'x')
-			printf("*** Select a choice from those listed. ****\n\n");
-
+            else if (Choice == 'k')
+                Choice = 'k';
+            else if (Choice == 'e')
+                Choice = 'e';
+            else if (Choice == 'd')
+                Choice = 'd';
+            else if (Choice == 'v')
+                Choice = 'v';
+            else
+                printf("*** Select a choice from those listed. ****\n\n");
+        }
 	} while (Choice != 'x');
-
 }

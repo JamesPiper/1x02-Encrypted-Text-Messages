@@ -6,7 +6,7 @@
 // Description : main()
 // IDE         : Code::Blocks 16.01
 // Compiler    : GCC
-// Language    : C (Compiling to ISO 11.)
+// Language    : C (Compiling to ISO 11)
 /////////////////////////////////////////////////////////////////////////////////////
 
 /////////////////////////////////////////////////////////////////////////////////////
@@ -26,8 +26,12 @@
 int main() {
 
     //Inintialization();
+
     _0x00_MainMenu();
+
     //CleanUp();
+    // free pText in setting plaintext.
+
     return 0;
 
 }

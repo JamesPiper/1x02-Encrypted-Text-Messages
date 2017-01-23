@@ -13,6 +13,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add option="-std=c11" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -31,7 +32,36 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="main.c">
+		<Unit filename="1x02 Encrypted Text Messages (Lib).c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="1x02 Encrypted Text Messages (Main).c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="1x02 Encrypted Text Messages.h" />
+		<Unit filename="Changes to 1x02 Encrypted Text Messages.txt">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="Readme.md" />
+		<Unit filename="_0x00_MainMenu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="_1x01_Enter_Plaintext.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="_1x02_Enter_Cyphertext.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="_1x03_Enter_Key.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="_1x04_Encrypt_Message.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="_1x05_Decrypt_Message.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="_1x06_Generate_Key_Set.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Extensions>

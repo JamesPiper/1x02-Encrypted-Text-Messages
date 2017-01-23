@@ -9,6 +9,11 @@
 // Language    : C (Compiling to ISO 11.)
 /////////////////////////////////////////////////////////////////////////////////////
 
+2017.01.23
+· Continue with developing place holders.
+· Adjust main menu for critical operations.
+· Working through the processing required for each step.
+
 2017.01.22
 · Creating files as place holders for code to come.
 · Getting the format corrected for Readme.md and adding more text.
